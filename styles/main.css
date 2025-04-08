@@ -95,3 +95,26 @@ body {
   margin-left: auto;
   margin-right: 40px;
 }
+
+/* ================= special-offers ================== */
+
+.special-offers {
+  padding: 70px 0;
+}
+
+.special-offers__title {
+  padding-left: 40px;
+  font-size: 40px;
+}
+
+.special-offers__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-top: 20px;
+}
+
+.special-offers__card {
+  max-width: 50%;
+  flex: 1 1 573px;
+}
