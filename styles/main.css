@@ -30,6 +30,13 @@ body {
   cursor: pointer;
 }
 
+.title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  font-size: 40px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -102,19 +109,30 @@ body {
   margin: 70px 0;
 }
 
-.special-offers__title {
-  padding-left: 40px;
-  font-size: 40px;
-}
-
 .special-offers__list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-top: 20px;
 }
 
 .special-offers__card {
   max-width: 50%;
   flex: 1 1 573px;
+}
+
+/* ================= services ================== */
+
+.services {
+  margin: 70px 0;
+}
+
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.services__item {
+  max-width: 50%;
+  flex: 1 1 573px; 
 }
