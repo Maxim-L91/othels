@@ -136,3 +136,20 @@ body {
   max-width: 50%;
   flex: 1 1 573px; 
 }
+
+/* ================= benefits ================== */
+
+.benefits {
+  margin-bottom: 70px;
+}
+
+.benefits__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.benefits__item {
+  max-width: 276px;
+  flex: 1 1 auto;
+}
