@@ -153,3 +153,20 @@ body {
   max-width: 276px;
   flex: 1 1 auto;
 }
+
+/* ================= placement ================== */
+
+.placement {
+  margin-bottom: 70px;
+}
+
+.placement__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.placement__item {
+  max-width: 33.33%;
+  flex: 1 1 374px;
+}
