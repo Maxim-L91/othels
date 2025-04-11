@@ -69,6 +69,7 @@ body {
   margin-bottom: 20px;
   padding-left: 40px;
   font-size: 40px;
+  color: #333;
 }
 
 .container {
@@ -91,6 +92,7 @@ body {
 }
 
 .header-top__phone {
+  font-family: 'Muller Medium', sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #666;
@@ -149,9 +151,76 @@ body {
   gap: 24px;
 }
 
-.special-offers__card {
-  max-width: 50%;
-  flex: 1 1 573px;
+.special-offers__left,
+.special-offers__right {
+  max-width: 573px;
+  display: flex;
+  flex: 1;
+}
+
+.special-offers__left {
+  flex-direction: column;
+  gap: 24px;
+}
+
+.special-offers__img {
+  min-height: 100%;
+  padding: 40px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 15px;
+}
+
+.special-offers__maldivs {
+  background: 
+    linear-gradient(90deg,rgba(48, 64, 89, .8) 0, rgba(53, 65, 83, 0) 67%),
+    url('../images/specials/Maldiskie.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.special-offers__nomers {
+  padding: 212px 229px 40px 45px;
+  background-image: url('../images/specials/deluxe-rooms.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.special-offers__krit {
+  background: 
+    linear-gradient(90deg,rgba(48, 64, 89, .8) 0, rgba(53, 65, 83, 0) 67%),
+    url('../images/specials/krit.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.special-offers__subtitle {
+  max-width: 420px;
+  margin: 0;
+  font-family: 'Muller Bold', sans-serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+.right-card__subtitle {
+  font-size: 60px;
+}
+
+.special-offers__price {
+  margin-bottom: 45px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.special-offers__details {
+  display: flex;
+  align-items: center;
+  color: #F0BF5F;
+}
+
+.special-offers__link span {
+  display: inline-block;
+  margin-right: 5px;
 }
 
 /* ================= services ================== */
