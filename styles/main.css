@@ -69,6 +69,7 @@ body {
   margin-bottom: 20px;
   padding-left: 40px;
   font-size: 40px;
+  font-weight: 400;
   color: #333;
 }
 
@@ -223,6 +224,13 @@ body {
   margin-right: 5px;
 }
 
+/* ================= About ================== */
+
+.about__text {
+  max-width: 888px;
+  line-height: 2;
+}
+
 /* ================= services ================== */
 
 .services {
@@ -238,6 +246,58 @@ body {
 .services__item {
   max-width: 50%;
   flex: 1 1 573px; 
+}
+
+.services__content {
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.services__img {
+  max-width: 100%;
+  min-height: 165px;
+  background-repeat: no-repeat;
+}
+
+.services__exclusive {
+  background-image: url('../images/services/exclusive-service.jpg');
+}
+
+.services__banquet {
+  background-image: url('../images/services/banquet-hall.jpg');
+}
+
+.services__sauna {
+  background-image: url('../images/services/sauna.jpg');
+}
+
+.services__parking {
+  background-image: url('../images/services/parking.jpg');
+}
+
+.services__link {
+  font-family: 'Muller Medium', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #cc9933;
+  vertical-align: middle;
+}
+
+.services__subtitle {
+  margin: 0;
+  padding-top: 26px;
+  padding-left: 45px;
+}
+
+.services__subtitle img {
+  vertical-align: middle;
+}
+
+.services__text {
+  max-width: 432px;
+  margin: 0;
+  padding: 16px 0 35px 45px;
+  line-height: 2;
 }
 
 /* ================= benefits ================== */
