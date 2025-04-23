@@ -378,6 +378,53 @@ body {
 }
 
 .placement__item {
+  position: relative;
   max-width: 33.33%;
   flex: 1 1 374px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.placement__inner {
+  position: relative;
+  padding: 32px 45px 45px 45px;
+}
+
+.placement__gray {
+  color: #999999;
+}
+
+.placement__price {
+  font-family: 'Muller Bold', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0 4px;
+}
+
+.placement__place {
+  margin: 16px 0;
+}
+
+.placement__btn {
+  margin-top: 20px;
+}
+
+.placement__rate {
+  position: absolute;
+  top: 35px;
+  right: 45px;
+}
+
+.placement__text {
+  position: absolute;
+  font-family: 'Muller Medium', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  bottom: 27px;
+  left: 64px;
+}
+
+.placement__img-last {
+  height: 100%;
 }
